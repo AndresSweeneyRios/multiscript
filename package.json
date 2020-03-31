@@ -15,5 +15,9 @@
   "private": false,
   "devDependencies": {
     "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andr3wRiv3rs/multiscript"
   }
 }
