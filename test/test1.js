@@ -1,0 +1,1 @@
+setInterval(() => console.log('Test 1'), 1000)

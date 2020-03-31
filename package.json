@@ -1,0 +1,19 @@
+{
+  "name": "multiscript",
+  "version": "0.1.0",
+  "description": "Execute multiple scripts simultaneously.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js node ./test/test0.js, node ./test/test1.js"
+  },
+  "author": {
+    "name": "Andres Sweeney-Rios",
+    "email": "andrewarivers@gmail.com",
+    "url": "https://poisonapple.dev"
+  },
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
