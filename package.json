@@ -1,10 +1,10 @@
 {
   "name": "multiscript",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Execute multiple scripts simultaneously.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./bin/index.js 'node ./test/test0.js' 'node ./test/test1.js'"
+    "dev": "nodemon ./index.js 'node ./test/test0.js' 'node ./test/test1.js'"
   },
   "author": {
     "name": "Andres Sweeney-Rios",
@@ -19,5 +19,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Andr3wRiv3rs/multiscript"
+  },
+  "bin": {
+    "multiscript": "./index.js"
   }
 }
