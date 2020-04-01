@@ -1,1 +1,2 @@
-setInterval(() => console.log('Test 1'), 1000)
+const chalk = require('chalk')
+setInterval(() => console.log(chalk.black.bgGreen('Test 1')), 1000)
