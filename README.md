@@ -11,7 +11,7 @@ yarn add --dev multiscript
 ```
 
 ## Usage
-Use comma seperated scripts
+Use quotes to specify commands, single or double
 ```
-multiscript yarn abc, npm run def, echo abc
+multiscript 'yarn abc' "npm run def" 'echo abc'
 ```

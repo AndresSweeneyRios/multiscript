@@ -4,7 +4,7 @@ const [,, ...args] = process.argv
 
 if (args.length === 0) process.exit()
 
-const commands = args.join(' ').replace(/,\s/, ',').split(',')
+const commands = args.join(' ').split(/('|")\s/).map( string => string.replace(/'|"/g, '') ).filter(Boolean)
 
 for (command of commands) {
   const child = exec(command, {
