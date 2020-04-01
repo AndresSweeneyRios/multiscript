@@ -1,6 +1,6 @@
 {
   "name": "multiscript",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Execute multiple scripts simultaneously.",
   "main": "index.js",
   "scripts": {
