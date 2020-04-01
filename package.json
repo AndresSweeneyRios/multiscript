@@ -4,7 +4,7 @@
   "description": "Execute multiple scripts simultaneously.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./index.js 'node ./test/test0.js' 'node ./test/test1.js'"
+    "dev": "nodemon ./bin/index.js 'node ./test/test0.js' 'node ./test/test1.js'"
   },
   "author": {
     "name": "Andres Sweeney-Rios",
@@ -21,6 +21,6 @@
     "url": "https://github.com/Andr3wRiv3rs/multiscript"
   },
   "bin": {
-    "multiscript": "./index.js"
+    "multiscript": "./bin/index.js"
   }
 }
