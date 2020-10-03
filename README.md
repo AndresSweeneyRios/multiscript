@@ -3,7 +3,7 @@ Run multiple commands simultaneously. Recursively pipe stdout to process, pipe s
 
 ## Installation
 ```
-npm install --dev multiscript
+npm install --save-dev multiscript
 ```
 or
 ```
